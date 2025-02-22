@@ -5,17 +5,17 @@ This repository contains various computer vision tasks using the **Ultralytics Y
 ## 📂 Folder Structure  
 ```
 ──📦 computer-vision-tasks
-   ├── 📂 images # Stores sample images
-   ├── 📂 videos # Stores sample videos
-   ├── 📂 yolo_models # Contains YOLO model weights
-   ├── 📜 classification.py # Classification using YOLO
-   ├── 📜 detection.py # Object detection using YOLO
-   ├── 📜 orientation.py # Orientation detection using YOLO
-   ├── 📜 pose_estimation.py # Pose estimation using YOLO
-   ├── 📜 segmentation.py # Segmentation using YOLO
-   ├── 📜 tracking.py # Object tracking with YOLO
-   ├── 📜 requirements.txt # Required dependencies
-   └── 📜 README.md # Project documentation
+   ├── 📂 images                # Stores sample images
+   ├── 📂 videos                # Stores sample videos
+   ├── 📂 yolo_models           # Contains YOLO model weights
+   ├── 📜 classification.py     # Classification using YOLO
+   ├── 📜 detection.py          # Object detection using YOLO
+   ├── 📜 orientation.py        # Orientation detection using YOLO
+   ├── 📜 pose_estimation.py    # Pose estimation using YOLO
+   ├── 📜 segmentation.py       # Segmentation using YOLO
+   ├── 📜 tracking.py           # Object tracking with YOLO
+   ├── 📜 requirements.txt      # Required dependencies
+   └── 📜 README.md             # Project documentation
 ```
 
 ## ⚙️ Installation  
