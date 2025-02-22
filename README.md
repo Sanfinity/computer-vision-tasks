@@ -3,18 +3,20 @@
 This repository contains various computer vision tasks using the **Ultralytics YOLO** model for object detection, classification, segmentation, tracking, and pose estimation.  
 
 ## 📂 Folder Structure  
-📦 computer-vision-tasks
-├── 📂 images # Stores sample images
-├── 📂 videos # Stores sample videos
-├── 📂 yolo_models # Contains YOLO model weights
-├── 📜 classification.py # Classification using YOLO
-├── 📜 detection.py # Object detection using YOLO
-├── 📜 orientation.py # Orientation detection using YOLO
-├── 📜 pose_estimation.py # Pose estimation using YOLO
-├── 📜 segmentation.py # Segmentation using YOLO
-├── 📜 tracking.py # Object tracking with YOLO
-├── 📜 requirements.txt # Required dependencies
-└── 📜 README.md # Project documentation
+```
+──📦 computer-vision-tasks
+   ├── 📂 images # Stores sample images
+   ├── 📂 videos # Stores sample videos
+   ├── 📂 yolo_models # Contains YOLO model weights
+   ├── 📜 classification.py # Classification using YOLO
+   ├── 📜 detection.py # Object detection using YOLO
+   ├── 📜 orientation.py # Orientation detection using YOLO
+   ├── 📜 pose_estimation.py # Pose estimation using YOLO
+   ├── 📜 segmentation.py # Segmentation using YOLO
+   ├── 📜 tracking.py # Object tracking with YOLO
+   ├── 📜 requirements.txt # Required dependencies
+   └── 📜 README.md # Project documentation
+```
 
 ## ⚙️ Installation  
 
@@ -33,6 +35,8 @@ This repository contains various computer vision tasks using the **Ultralytics Y
     ```
     (Make sure to install the correct version based on your CUDA version.)
 
+## 📥 Download Models & Sample Data
+To get the YOLO models, sample images, and videos, download the [v1 release](https://github.com/Sanfinity/computer-vision-tasks/releases/download/v1/data.zip) and extract them into the project folder.
 
 ## 🚀 Usage
 All scripts use the webcam by default. If you want to use a sample video, uncomment the relevant lines in the script.
